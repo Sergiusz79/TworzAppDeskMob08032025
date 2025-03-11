@@ -1,8 +1,6 @@
 #include <iostream>
 
-using namespace std;
-
-int arr[];
+using namespace std; 
 
 void printArray(int *arr, size_t size)
 {
@@ -37,7 +35,6 @@ int main()
     size_t size = sizeof(array) / sizeof(array[0]);
     printArray(array, size);
     cout << "*********" << endl;
-
     sortArray(array, size);
     printArray(array, size);
     return 0;
