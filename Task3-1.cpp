@@ -20,7 +20,7 @@ bool customSort(char a, char b) {
 
 int main() {
     string input;
-    cout << "Введите строку: ";
+    cout << "Input data: ";
     getline(cin, input);
 
     // Удаляем пробелы
@@ -28,6 +28,6 @@ int main() {
 
     sort(input.begin(), input.end(), customSort);
 
-    cout << "Отсортированная строка: " << input << endl;
+    cout << "Sorted string: " << input << endl;
     return 0;
 }
